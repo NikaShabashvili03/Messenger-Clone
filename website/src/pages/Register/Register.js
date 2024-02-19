@@ -28,10 +28,10 @@ export default function Register() {
   });
 
   const onSubmit = async (val) => {
-    if(!avatarUrl){
-      alert('Please set avatar');
-      return null;
-    }
+    // if(!avatarUrl){
+    //   alert('Please set avatar');
+    //   return null;
+    // }
     const data = await dispatch(fetchRegister({
       fullName: val.fullName,
       email: val.email,
