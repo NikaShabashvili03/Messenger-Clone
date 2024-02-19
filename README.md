@@ -4,5 +4,5 @@
 Demo: https://messenger-clone-client-nine.vercel.app
 
 
-Images cannot be uploaded in the demo version, but will be uploaded to your localhost as usual 
+Uploading images is done by multer so in demo version it is not possible to upload because the host is on vercel, on your localhost it will work normally.
 more: https://vercel.com/guides/how-to-upload-and-store-files-with-vercel
